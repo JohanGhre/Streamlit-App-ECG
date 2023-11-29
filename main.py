@@ -10,6 +10,9 @@ import time
 def main():    
     st.title('Deep Learning - Recurrent Neural Network')
     
+    image_path = 'rnn.png'
+    st.image(image_path)
+    
     # Affichage du bouton
     show_code_rnn = st.button("Afficher le code", key="button8")
     
